@@ -10,7 +10,7 @@ async function predictgender() {
         return;
     }
     try{
-      let apiurl = `https://gender-api.com/get?name=${name}&key=3bc5efe3853ff102b8bb6e67ad91fd67f9945157f44a51a91a6ec9f0b456997e`
+      let apiurl = `https://gender-api.com/get?name=${name}&key=yourkey`
 
       let response = await fetch(apiurl)
       let data = await response.json()
